@@ -23,7 +23,7 @@ class Login extends React.Component {
             <div class="page-wrapper">
                 <div class="login-container">
                     <div class="login-wrapper">
-                        <h1>Login to Your Account</h1>
+                        <h1 class="login-text">Login to Your Account</h1>
                         <form class="login-form">
                             <div class="input-wrapper">
                                 <input class="input-field" 
@@ -49,7 +49,7 @@ class Login extends React.Component {
                                 />
                             </div>
                             <div>
-                                <button type="submit">Submit</button>
+                                <button class="input-button" type="submit">Submit</button>
                             </div>
                             <label>
                                 <input type="checkbox"/> Remember me
@@ -58,8 +58,10 @@ class Login extends React.Component {
                     </div>
                 </div>
                 <div class="switch-wrapper">
-                    <div>
-
+                    <div class="signup-switch">
+                        <h1 class="switch-title">Don't Have an Account?</h1>
+                        <p class="switch-text">Sign Up Here!</p>
+                        <button class="switch-button">Sign Up</button>
                     </div>
                 </div>
             </div>
