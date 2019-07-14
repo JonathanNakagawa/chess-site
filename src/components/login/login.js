@@ -20,38 +20,47 @@ class Login extends React.Component {
 
     render() {
         return(
-            <div class="login-container">
-                <div class="login-wrapper">
-                    <form class="login-form">
-                        <div class="input-wrapper">
-                            <input class="input-field" 
-                                   type="username"  
-                                   name="username"
-                                   placeholder="username" 
-                                   value={this.state.username}
-                                   onChange={this.handleChange} 
-                                   required
-                            /> 
+            <div class="page-wrapper">
+                <div class="login-container">
+                    <div class="login-wrapper">
+                        <h1>Login to Your Account</h1>
+                        <form class="login-form">
+                            <div class="input-wrapper">
+                                <input class="input-field" 
+                                    type="username"  
+                                    name="username"
+                                    placeholder="username" 
+                                    value={this.state.username}
+                                    onChange={this.handleChange} 
+                                    required
+                                /> 
 
 
-                        </div>
-            
-                        <div class="input-wrapper">
-                            <input class="input-field"
-                                   type="password" 
-                                   name="password"
-                                   placeholder="password" 
-                                   value={this.state.password} 
-                                   onChange={this.handleChange}
-                                   required
-                            />
-                        </div>
+                            </div>
+                
+                            <div class="input-wrapper">
+                                <input class="input-field"
+                                    type="password" 
+                                    name="password"
+                                    placeholder="password" 
+                                    value={this.state.password} 
+                                    onChange={this.handleChange}
+                                    required
+                                />
+                            </div>
+                            <div>
+                                <button type="submit">Submit</button>
+                            </div>
+                            <label>
+                                <input type="checkbox"/> Remember me
+                            </label>
+                        </form>
+                    </div>
+                </div>
+                <div class="switch-wrapper">
+                    <div>
 
-                        <button type="submit">Submit</button> <br/>
-                        <label>
-                            <input type="checkbox"/> Remember me
-                        </label>
-                    </form>
+                    </div>
                 </div>
             </div>
         );
