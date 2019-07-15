@@ -1,4 +1,5 @@
 import React from 'react';
+import Game from './components/chess/game';
 
 class App extends React.Component {
   constructor(props) {
@@ -7,9 +8,7 @@ class App extends React.Component {
 
   render() {
     return(
-      <div>
-        Hello World
-      </div>
+      <Game />
     );
   }
 }
