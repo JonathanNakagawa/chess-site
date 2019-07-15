@@ -1,6 +1,6 @@
 import React from 'react';
 import Tile from './tile.js';
-import '../index.css';
+import './chess.css';
 
 
 export class Board extends React.Component {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../index.css';
+import './chess.css';
 
 // The Tile component represents an individual tile of the chess board. 
 // It accepts a shade, onClick function, and style (containing the path to the piece occupying the tile).

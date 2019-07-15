@@ -1,6 +1,6 @@
 import Piece from './piece.js'
-import WhiteKing from '../images/King_White.png'
-import BlackKing from '../images/King_Black.png'
+import WhiteKing from '../../../resources/piece_images/King_White.png'
+import BlackKing from '../../../resources/piece_images/King_Black.png'
 
 export default class King extends Piece {
     constructor(player) {

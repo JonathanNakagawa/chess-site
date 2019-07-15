@@ -1,9 +1,9 @@
 import React from 'react'
-import initializeBoard from '../helper/board_init_standard.js'
+import initializeBoard from './helper/board_init_standard';
 import { Board } from './board.js';
  
 
-export class Game extends React.Component {
+class Game extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -23,3 +23,5 @@ export class Game extends React.Component {
         return(<Board pieces = {this.state.pieces} />);
     }
 }
+
+export default Game;

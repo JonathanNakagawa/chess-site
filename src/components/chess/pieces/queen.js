@@ -1,6 +1,6 @@
 import Piece from './piece.js'
-import WhiteQueen from '../images/Queen_White.png'
-import BlackQueen from '../images/Queen_Black.png'
+import WhiteQueen from '../../../resources/piece_images/Queen_White.png'
+import BlackQueen from '../../../resources/piece_images/Queen_Black.png'
 
 export default class Queen extends Piece {
     constructor(player) {

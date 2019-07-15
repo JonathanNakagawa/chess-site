@@ -1,6 +1,6 @@
-import Piece from './piece.js'
-import WhiteBishop from '../images/Bishop_White.png'
-import BlackBishop from '../images/Bishop_Black.png'
+import Piece from './piece.js';
+import WhiteBishop from '../../../resources/piece_images/Bishop_White.png';
+import BlackBishop from '../../../resources/piece_images/Bishop_Black.png';
 
 export default class Bishop extends Piece {
     constructor(player) {

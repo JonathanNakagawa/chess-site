@@ -1,6 +1,6 @@
 import Piece from './piece.js'
-import WhiteRook from '../images/Rook_White.png'
-import BlackRook from '../images/Rook_Black.png'
+import WhiteRook from '../../../resources/piece_images/Rook_White.png'
+import BlackRook from '../../../resources/piece_images/Rook_Black.png'
 
 export default class Rook extends Piece {
     constructor(player) {
